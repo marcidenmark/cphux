@@ -1,0 +1,19 @@
+h1 {
+	font-family: 'Comfortaa', cursive;
+	color:purple;
+}
+
+h2 {
+	font-family: 'Comfortaa', cursive;
+	color:black;
+	margin:10px;
+}
+
+h4 {
+	font-family: 'Comfortaa', cursive;
+	color:black;
+}
+
+.white {
+	color:white;
+}
