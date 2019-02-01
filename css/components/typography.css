@@ -1,12 +1,21 @@
 h1 {
 	font-family: 'Comfortaa', cursive;
-	color:purple;
+	font-size: 40px
 }
 
 h2 {
 	font-family: 'Comfortaa', cursive;
+	font-size: 35px;
+	font-size:
 	color:black;
 	margin:10px;
+}
+
+h3 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 28px;
+	margin-top: 11px !important;
+	color:black;
 }
 
 h4 {
@@ -14,6 +23,36 @@ h4 {
 	color:black;
 }
 
+p {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.label {
+	font-weight: light !important;
+}
+
 .white {
 	color:white;
+}
+
+.blue {
+	color:#0990f7;
+}
+
+.purple {
+ color: #c3069f;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.label {
+	margin-bottom: 50px !important;
+}
+
+.margin-bottom-30px {
+	    margin-bottom: 30px;
 }

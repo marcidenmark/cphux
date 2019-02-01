@@ -6,22 +6,36 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
   <link rel="stylesheet" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 </head>
+
+
 	<body>
+		<!-- navbar -->
+
 		<div class="navbar">
 			<div class="navbar-container">
 	      <img src="images/cphux_member_logo_white.png" alt="" id="logo">
-	        <div class="navbar-item">
-	           <a href="">My Profile</a>
+	        <div class="navbar-item hidden-xs hidden-sm">
+	          <ul> <a href="">My Profile</a></ul>
+
 	      	</div>
+
+      <div class="dropdown visible-xs">
+        <i class="fa fa-bars dropdown-toggle" id="menu-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></i>
+      </div>
+
+
 			</div>
 	  </div>
+	  <!-- end of nav -->
 
 			<div class="sign-up-banner" style="background-image: url('images/SignupImage.jpg');">
 				<div class="container">
@@ -34,7 +48,7 @@
 		 					 <div class="col-xs-12 col-sm-6 col-sm-offset-6">
 		 					 		<div class="banner-content">
 					 					<div class="signup-form-box">
-					 					 		<h4>Get the ball rolling</h4>
+					 					 		<h3 class="blue">Get the ball rolling</h3>
 
 <!-- start of bootstrap form -->
 													<form>
@@ -44,22 +58,21 @@
 													  <div class="form-group">
 													    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password">
 													  </div>
+													  <p class="text-center blue">
+													  	By registering you accept the <br>
+													  	<span class="bold"> Terms & Conditions</span> of CPHUX Membership
+													  </p>
 
 													  <button type="submit" class="button-1">next</button>
 													  <button type="submit" class="button-2">login</button>
 
 												</form>
-
-
-
 					 					</div>
 									</div>
 							</div>
 					</div>
-
-
 				</div>
-
+			</div>
 
 	</body>
 
