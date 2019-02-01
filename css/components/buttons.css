@@ -1,0 +1,93 @@
+.button-1 {
+	color:white;
+	background: linear-gradient(45deg, #0990f7, #c3069f);
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+  border-radius: 10px;
+	padding: 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border:0px;
+}
+
+.button-2 {
+	color:black;
+	background: white;
+	border:1px solid black;
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+  border-radius: 10px;
+	padding: 9px 12px 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+.button-3 {
+	color:white;
+	background: linear-gradient(45deg, #0990f7, #c3069f);
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+  border-radius: 10px;
+	padding: 9px 12px 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border:0px;
+  margin-top:24px;
+}
+
+.button-4 {
+	text-align: center;
+	border-radius: 3px;
+	color:black;
+	background: white;
+	border:1px solid #e2e6e9;
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+	padding: 9px 12px 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+.button-4-selected {
+	text-align: center;
+	border-radius: 3px;
+	color:black;
+	background-color:white;
+	border:1px;
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+	padding: 9px 12px 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+
+.button-4:visited {
+	background-color: red;
+}
+/* mouse over link */
+.button-4:hover {
+	text-decoration: none !important;
+	background-color: #DAD9DE;
+  text-decoration: none !important;
+  -webkit-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+}
+.button-4:active {
+	text-decoration: none !important;
+	background-color: #DAD9DE;
+  text-decoration: none !important;
+  -webkit-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+}
+
+/*.button-4:focus {
+	background-color: orange;
+}*/
+
+
