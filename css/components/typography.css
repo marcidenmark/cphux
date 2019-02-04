@@ -7,15 +7,15 @@ h2 {
 	font-family: 'Comfortaa', sans-serif;
 	font-size: 35px;
 	color:black;
-	margin:10px;
+	font-weight: 300;
 }
 
 h3 {
 	font-family: 'Comfortaa', sans-serif;
 	font-size: 28px;
-	margin-top: 11px !important;
-	color:black;
-}
+  margin-top: 203x !important;
+  margin-bottom: 5px !important;
+	}
 
 h4 {
 	font-family: 'Comfortaa', sans-serif;
@@ -30,37 +30,29 @@ h5 {
 p {
 	font-family: 'Comfortaa', sans-serif;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 14px;
+	line-height: 25px;
 }
 
-.label {
-	font-weight: 300 !important;
-}
-
-.white {
-	color:white;
-}
-
-.blue {
-	color:#0990f7;
-}
-
-.purple {
- color: #c3069f;
-}
-
-.bold {
-	font-weight: 700;
-}
-
-.label {
-	margin-bottom: 50px !important;
-}
-
-.margin-bottom-30px {
-	margin-bottom: 30px;
-}
-
+/* unvisited link */
 a:link {
 	text-decoration: none !important;
 }
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: darker;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+
+

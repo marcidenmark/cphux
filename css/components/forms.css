@@ -1,0 +1,31 @@
+
+.signup-form-box {
+/*	margin:40px 40px 80px 40px;
+*/	padding:24px 20px;
+	background-color: white;
+}
+
+/*Overwriting of Bootsrap classes for the form fields*/
+.form-control {
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+  color: black !important;
+  background-color: #DDE7F1 !important;
+	border: 0px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  }
+
+
+.form-control-multiline {
+	height: 100% !important;
+}
+
+.form-check-label {
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 25px;
+	margin-left: 10px;
+}

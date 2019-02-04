@@ -1,3 +1,4 @@
+/*below 2 styles are for the membership cards*/
 .card	{
 	background-color:white;
 	margin: -40px 13px 70px	13px;
@@ -8,9 +9,18 @@
 
 .card-active {
 	background-color: #DAD9DE;
-		opacity: .9;
-
+	opacity: .9;
 	margin: -40px 13px 70px	13px;
 	padding: 30px 40px ;
 	border: solid 9px #c3069f;
 }
+
+
+.card-questionaire	{
+	background-color:white;
+	padding: 30px 40px ;
+	border-top: solid 5px #c3069f;
+	margin-bottom:20px;
+}
+
+

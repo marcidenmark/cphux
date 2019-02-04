@@ -1,6 +1,7 @@
-@import url("Components/navbar.css");
-@import url("Components/signup.css");
-@import url("Components/typography.css");
-@import url("Components/cards.css");
-@import url("Components/banner.css");
-@import url("Components/buttons.css");
+@import url("components/navbar.css");
+@import url("components/typography.css");
+@import url("components/cards.css");
+@import url("components/banners.css");
+@import url("components/buttons.css");
+@import url("components/forms.css");
+@import url("components/general.css");

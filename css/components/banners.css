@@ -1,0 +1,32 @@
+.sign-up-banner {
+	height: 88vh;
+  background-size: cover !important;
+}
+
+.banner-content {
+  background-color: white;
+	margin:50px 10px;
+}
+
+.signup-banner-text {
+	margin-top: 50px;
+	margin-left:0px;
+}
+
+.background-gradient {
+	background: linear-gradient(45deg, #0990f7, #c3069f);
+	min-height: 80vh;
+}
+
+.background-gradient-reverse {
+	background: linear-gradient(-45deg, #0990f7, #c3069f);
+	height: 100%;
+}
+
+.white-background {
+	background-color: white;
+}
+
+/*.container.wrapper {
+	padding-top: 	-100px;
+}*/
