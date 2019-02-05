@@ -26,6 +26,9 @@
 .white-background {
 	background-color: white;
 }
+.boxes-container {
+	margin: 50px 0px;
+}
 
 /*.container.wrapper {
 	padding-top: 	-100px;

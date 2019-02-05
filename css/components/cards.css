@@ -6,7 +6,6 @@
 	border-top: solid 5px #c3069f;
 }
 
-
 .card-active {
 	background-color: #DAD9DE;
 	opacity: .9;
@@ -15,8 +14,7 @@
 	border: solid 9px #c3069f;
 }
 
-
-.card-questionaire	{
+.card-white	{
 	background-color:white;
 	padding: 30px 40px ;
 	border-top: solid 5px #c3069f;
@@ -24,3 +22,15 @@
 }
 
 
+.card-interests {
+	color:black;
+	background: white;
+	border:1px solid black;
+	font-family: 'Comfortaa', cursive !important;
+  height: 38px !important;
+  border-radius: 10px;
+	padding: 9px 12px 6px 12px;
+  width: 100%;
+  font-size: 14px;
+  vertical-align: baseline;
+}
