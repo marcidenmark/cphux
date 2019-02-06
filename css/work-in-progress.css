@@ -1,0 +1,67 @@
+.hsl-blue {
+	hsl(220, 95%, 34%);
+}
+
+.navbar-thesis {
+  background: rgba(255,255,255,0.2);
+
+  transition: all 0.3s ease;
+  display: flex;
+  height: 83px;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+  z-index: 10;
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-blind {
+  margin-bottom: 83px;
+}
+/* Navbar logo */
+.navbar-thesis-brand img {
+  width: 168px;
+  padding-top: 6px;
+}
+
+/* Navbar right section (with form, links, button) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  font-family: Roboto Condensed;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 40px 20px;
+  line-height: 40px;
+  color: #EF233C;
+  transition: background-color .25s ease-in-out;
+
+}
+.navbar-item:hover{
+  color: white;
+  background-color: #EF233C;
+  border-color: #ac2626;
+  text-decoration: none;
+}
+
+.active-tab{
+  color: white;
+  background-color: #EF233C;
+  border-color: #ac2626;
+  text-decoration: none;
+  line-height: 5px;
+}

@@ -1,6 +1,6 @@
 h1 {
-	font-family: 'Comfortaa' sans-serif;
-	font-size: 40px
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 50px;
 }
 
 h2 {
@@ -13,9 +13,9 @@ h2 {
 h3 {
 	font-family: 'Comfortaa', sans-serif;
 	font-size: 28px;
-  margin-top: 203x !important;
+  margin-top: 20px !important;
   margin-bottom: 5px !important;
-	}
+}
 
 h4 {
 	font-family: 'Comfortaa', sans-serif;
@@ -25,6 +25,9 @@ h4 {
 h5 {
 	font-family: 'Comfortaa', sans-serif;
 	color:black;
+	font-size: 17px;
+	line-height: 30px;
+	margin: 20px 0px 30px 0px;
 }
 
 p {
@@ -32,6 +35,12 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 25px;
+}
+.bold{
+	font-weight: 400,
+}
+.extra-bold {
+	font-weight: 700;
 }
 
 /* unvisited link */
@@ -46,7 +55,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: darker;
+  color: grey;
 }
 
 /* selected link */

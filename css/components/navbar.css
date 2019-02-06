@@ -1,6 +1,61 @@
+.grey-div-delete {
+	height: 500px;
+	background-color:grey;
+}
+/*MMT*/
+
+a.navbar-item {
+    color: white !important;
+}
+
+.navbar-blind {
+  margin-bottom: 83px;
+}
+
+/* Navbar right section (with form, links, button) */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-item {
+	font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+	color:;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 40px 20px;
+  line-height: 40px;
+  color: #EF233C;
+  transition: background-color .25s ease-in-out;
+}
+
+.navbar-item:hover{
+  color: white;
+  background-color: #EF233C;
+  border-color: #ac2626;
+  text-decoration: none;
+}
+
+.active-tab{
+  color: white;
+  background-color: #EF233C;
+  border-color: #ac2626;
+  text-decoration: none;
+  line-height: 5px;
+}
+
+/*end of mmt*/
+
 #logo {
+	display: flex;
   height: 40px;
   margin:14px;
+  display: inline;
 }
 
 .navbar {
@@ -46,49 +101,3 @@
   -webkit-transition: background-color .25s ease-in-out;
   transition: background-color .25s ease-in-out;
 }
-
-
-
-/* Navbar link */
-.navbar-cphux-link {
-  color: #616668;
-  font-size: 14px;
-}
-.navbar-cphux-link:hover {
-  color: #da552f;
-  text-decoration: none;
-}
-
-/* Dropdown menu */
-.navbar-cphux-dropdown-menu {
-  margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
-}
-.navbar-cphux-dropdown-menu li > a {
-  transition: color 0.3s ease;
-  font-weight: lighter !important;
-  color: #999999 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  padding: 10px 20px;
-}
-.navbar-cphux-dropdown-menu li > a:hover {
-  background: transparent !important;
-  color: black !important;
-}
-.navbar-cphux-dropdown-menu:before {
-  content: ' ';
-  height: 10px;
-  width: 10px;
-  position: absolute;
-  right: 10px;
-  top: -6px;
-  background-color: white;
-  transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
-}
-/**/
-
-/**/

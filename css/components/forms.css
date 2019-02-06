@@ -1,7 +1,7 @@
 
 .signup-form-box {
-/*	margin:40px 40px 80px 40px;
-*/	padding:24px 20px;
+/*	margin:40px 40px 80px 40px;*/
+	padding:24px 20px;
 	background-color: white;
 }
 
@@ -20,6 +20,8 @@
 
 .form-control-multiline {
 	height: 100% !important;
+	resize: none!important;
+	width: 100%;
 }
 
 .form-check-label {
