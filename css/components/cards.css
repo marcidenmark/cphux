@@ -6,12 +6,21 @@
 	border-top: solid 5px #c3069f;
 }
 
+
 .card-home	{
 	background-color:white;
 	margin: 20px 13px 70px	13px;
 	padding: 30px 40px ;
 	border-top: solid 5px #c3069f;
 }
+
+.card-payment-homepage	{
+	background-color:white;
+	margin: 20px 13px 70px	13px;
+	padding: 30px 40px ;
+	border-top: solid 20px #c3069f;
+}
+
 
 .card-active {
 	background-color: #DAD9DE;

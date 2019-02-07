@@ -13,6 +13,7 @@ h2 {
 h3 {
 	font-family: 'Comfortaa', sans-serif;
 	font-size: 28px;
+	line-height: 40px;
   margin-top: 20px !important;
   margin-bottom: 5px !important;
 }
@@ -20,6 +21,10 @@ h3 {
 h4 {
 	font-family: 'Comfortaa', sans-serif;
 	color:black;
+	font-size: 18px;
+	line-height: 37px;
+
+
 }
 
 h5 {

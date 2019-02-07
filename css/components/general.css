@@ -1,9 +1,15 @@
 html, body {
     overflow-x:hidden;
 }
-
+.margin-left-right{
+	margin:0px 40px;
+}
 .bold {
 	font-weight: 700;
+}
+
+.ten-px-div{
+	height: 10px;
 }
 
 .label {
@@ -31,11 +37,15 @@ html, body {
 }
 
 .margin-bottom-30px {
-	margin-bottom: 30px;
+	margin-bottom: 130px !important;
 }
 
 .margin-top {
 	margin-top: 80px;
+}
+
+.margin-bottom-20 {
+	margin-top: 20px;
 }
 
 .margin-left	{

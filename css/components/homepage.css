@@ -1,6 +1,92 @@
+.what-is-ux-div {
+	background-color:#f9f9f9;
+	padding:120px 0px 10px 0px;
+}
+
+.pay-container{
+	padding:120px 0px 10px 0px;
+	height: 80vh;
+}
+
+.testimonial-pic{
+	width: 400px;
+	height: 400px;
+	color: yellow;
+}
+
+.fontA-style {
+	text-align: center;
+	color:#c3069f;
+  font-size: 5.33em !important;
+  }
+
+.background-highlight{
+	background-color:#c3069f;
+}
+
+.what-is-ux-body {
+	padding: 30px 20px !important;
+	margin-bottom:50px;
+	line-height: 40px;
+}
+.background-image-style {
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.circles{
+	width: 100%;
+}
+
+.box-shadow2 {
+  box-shadow: 1px 0px 37px 1px #d9ecf5fa;
+}
+
 .home-banner-headline {
 	font-family: 'Comfortaa', sans-serif;
-	margin-top: 100px;
-    font-size: 70px;
-    color:white;
+  font-size: 20px;
+  color:white;
+  align-self: flex-end;
   }
+
+.quote-banner {
+	margin: 0px auto;
+	color:#c3069f;
+	background-size: cover;
+}
+ .quote-banner-type {
+  padding: 157px 80px !important;
+ 	font-style: italic;
+	line-height: 40px;
+}
+
+.flex-container {
+	  display: flex;
+}
+.text-container {
+	margin-top: 20%;
+}
+
+.grey-div-delete-1 {
+	height: 540px;
+	background-color:#f9f9f9;
+		box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.grey-div {
+	background-color:#dfdfdf;
+}
+
+.grey-div-delete-4 {
+	height: 500px;
+	background-color:#c6c6c6;
+}
+
+.grey-div-delete-5 {
+	height: 500px;
+	background-color:#d4c7d0;
+}
